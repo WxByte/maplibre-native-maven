@@ -1,0 +1,253 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.maplibre.gl",
+    "module": "android-sdk-opengl",
+    "version": "2026.10.19-globe-terrain-ss.11",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "openglReleaseVariantOpenglReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.maplibre.gl",
+          "module": "android-sdk-geojson",
+          "version": {
+            "requires": "6.0.1"
+          }
+        },
+        {
+          "group": "org.maplibre.gl",
+          "module": "maplibre-android-gestures",
+          "version": {
+            "requires": "0.0.4"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "android-sdk-opengl-2026.10.19-globe-terrain-ss.11.aar",
+          "url": "android-sdk-opengl-2026.10.19-globe-terrain-ss.11.aar",
+          "size": 16396575,
+          "sha512": "8dc43bcaee5b897e63ff124f9d4c484097a45e56efe6c6013e7c94c06d9369e88de771b027bdb38cac8c8c31692bb20ef0e669c5ac7c02eb5bfc529844882259",
+          "sha256": "b1525d8bf0272cb3aa0cabb9b3d595994ed63cbe59cde1edb6192cafa95f6ba3",
+          "sha1": "d5005a91d488b9f5d5fab05f03e290f6ca8f7de3",
+          "md5": "7d9a4c7f709f4e60abcf1cf8bcaae798"
+        }
+      ]
+    },
+    {
+      "name": "openglReleaseVariantOpenglReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.maplibre.gl",
+          "module": "android-sdk-turf",
+          "version": {
+            "requires": "6.0.1"
+          },
+          "excludes": [
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            },
+            {
+              "group": "commons-collections",
+              "module": "commons-collections"
+            }
+          ]
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.8.2"
+          },
+          "excludes": [
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            },
+            {
+              "group": "commons-collections",
+              "module": "commons-collections"
+            }
+          ]
+        },
+        {
+          "group": "androidx.fragment",
+          "module": "fragment",
+          "version": {
+            "requires": "1.8.9"
+          },
+          "excludes": [
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            },
+            {
+              "group": "commons-collections",
+              "module": "commons-collections"
+            }
+          ]
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.12.0"
+          },
+          "excludes": [
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            },
+            {
+              "group": "commons-collections",
+              "module": "commons-collections"
+            }
+          ]
+        },
+        {
+          "group": "com.jakewharton.timber",
+          "module": "timber",
+          "version": {
+            "requires": "5.0.1"
+          },
+          "excludes": [
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            },
+            {
+              "group": "commons-collections",
+              "module": "commons-collections"
+            }
+          ]
+        },
+        {
+          "group": "androidx.interpolator",
+          "module": "interpolator",
+          "version": {
+            "requires": "1.0.0"
+          },
+          "excludes": [
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            },
+            {
+              "group": "commons-collections",
+              "module": "commons-collections"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          },
+          "excludes": [
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            },
+            {
+              "group": "commons-collections",
+              "module": "commons-collections"
+            }
+          ]
+        },
+        {
+          "group": "org.maplibre.gl",
+          "module": "android-sdk-geojson",
+          "version": {
+            "requires": "6.0.1"
+          },
+          "excludes": [
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            },
+            {
+              "group": "commons-collections",
+              "module": "commons-collections"
+            }
+          ]
+        },
+        {
+          "group": "org.maplibre.gl",
+          "module": "maplibre-android-gestures",
+          "version": {
+            "requires": "0.0.4"
+          },
+          "excludes": [
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            },
+            {
+              "group": "commons-collections",
+              "module": "commons-collections"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.10"
+          },
+          "excludes": [
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            },
+            {
+              "group": "commons-collections",
+              "module": "commons-collections"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "android-sdk-opengl-2026.10.19-globe-terrain-ss.11.aar",
+          "url": "android-sdk-opengl-2026.10.19-globe-terrain-ss.11.aar",
+          "size": 16396575,
+          "sha512": "8dc43bcaee5b897e63ff124f9d4c484097a45e56efe6c6013e7c94c06d9369e88de771b027bdb38cac8c8c31692bb20ef0e669c5ac7c02eb5bfc529844882259",
+          "sha256": "b1525d8bf0272cb3aa0cabb9b3d595994ed63cbe59cde1edb6192cafa95f6ba3",
+          "sha1": "d5005a91d488b9f5d5fab05f03e290f6ca8f7de3",
+          "md5": "7d9a4c7f709f4e60abcf1cf8bcaae798"
+        }
+      ]
+    }
+  ]
+}
